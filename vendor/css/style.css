@@ -1,0 +1,215 @@
+@font-face {
+    font-family: 'Quicksand';
+    /* font-style: normal; */
+    /* font-weight: 400; */
+    src: url(../vendor/fonts/quicksand/Quicksand-Bold.ttf);
+    /* For IE6-8 */
+    src: local('Quicksand'), local('Quicksand-Regular'), url(../vendor/fonts/quicksand/Quicksand-Regular.ttf) format('truetype'), url(../vendor/fonts/quicksand/Quicksand-light.ttf) format('truetype'), /* url(../vendor/fonts/quicksand/Quicksand-Bold.ttf) format('truetype'), */
+    url(../vendor/fonts/quicksand/Quicksand-Medium.ttf) format('truetype');
+}
+
+* {
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+/* Header start */
+
+.nav-wrapper ul li a {
+    color: #000000;
+}
+
+.nav-wrapper .ruta-logo {
+    padding-left: 100px;
+}
+
+
+/* header end */
+
+.bannar {
+    height: 500px;
+    background-image: url(../images/cars.jpg);
+    background-size: cover;
+}
+
+.bannar .info {
+    position: relative;
+    margin-top: 20%;
+    left: 10%;
+    text-shadow: 0px 2px 5px rgba(0, 0, 0, .4);
+}
+
+.bannar .usr-signup {
+    position: relative;
+    padding: 20px 0px 10px 0;
+    margin-top: 20%;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, .5);
+    z-index: 5;
+}
+
+.bannar .usr-signup button {
+    font-weight: bolder;
+}
+
+
+/* Section one */
+
+.underline-section {
+    position: relative;
+    top: 50px;
+    /* height: 5px; */
+    /* border-top: 1px solid rgba(102, 0, 51, .2); */
+    z-index: 4;
+}
+
+.grayz {
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+
+.grayz:hover {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    -webkit-transition: 0.3s ease;
+    -moz-transition: 0.3s ease;
+    -o-transition: 0.3s ease;
+    transition: 0.3s ease;
+}
+
+.section-one {
+    margin-top: 20%;
+}
+
+.app-info img {
+    width: 120px;
+    height: 120px;
+}
+
+.app-info .card-content {
+    height: 100px;
+}
+
+
+/* Driver sign up section */
+
+.suv {
+    margin-top: 50px;
+}
+
+.suv img {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    /* background-color: #fce4ec; */
+    border-radius: 50%;
+    border: 2px solid #ad1457;
+    opacity: .8;
+    box-shadow: 0px 0.3px 1px;
+}
+
+.signup-driver {
+    margin-top: 20px;
+}
+
+.signup-driver .tabs-content {
+    height: 530px !important;
+}
+
+.signup-driver .tabs-content {
+    height: -webkit-fill-available !important;
+    height: -moz-fill-available !important;
+    height: -ms-fill-available !important;
+    height: -o-fill-available !important;
+    height: fill-available !important;
+}
+
+.signup-driver form {
+    margin-top: 10px;
+    box-shadow: 0px 0px 1.5px rgba(0, 0, 0, .4);
+}
+
+.two-em {
+    font-size: 2rem !important;
+}
+
+.abt {
+    margin-top: 80px;
+    padding: 50px;
+    border: 0.3px solid #e3e3e3;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .2)
+}
+
+.abt p {
+    font-size: 1.5em;
+}
+
+.membr {
+    margin-top: 100px;
+}
+
+.membr .title {
+    margin: 100px 0px;
+}
+
+.membr .title span {
+    padding-bottom: 30px;
+    border-bottom: 2px dashed rgba(0, 0, 0, .7);
+}
+
+.membr .membr-img {
+    width: 200px;
+    height: 200px;
+}
+
+.about-brind .brind-hist {
+    margin-top: 150px;
+}
+
+.about-brind .brind-hist span {
+    padding: 20px;
+    border: 2px dashed rgba(0, 0, 0, .6);
+}
+
+.about-brind article {
+    margin-top: 50px;
+    font-size: 1.2em;
+    padding: 40px;
+    border: 2px dashed rgba(0, 0, 0, .6);
+}
+
+
+/* Footer */
+
+footer {
+    margin-top: 200px;
+}
+
+footer .social-links i {
+    margin: 20px;
+    opacity: .6;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    transition: 0.5s ease;
+}
+
+footer .social-links i:hover {
+    opacity: 1;
+    -webkit-transition: 0.5s ease;
+    -moz-transition: 0.5s ease;
+    -o-transition: 0.5s ease;
+    transition: 0.5s ease;
+}
+
+@media only screen and (max-width: 765px) {
+    .nav-wrapper .ruta-logo {
+        padding-left: 1px;
+    }
+    .underline-section {
+        margin-top: 560px;
+    }
+}

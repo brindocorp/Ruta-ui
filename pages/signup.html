@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Driver Signup</title>
+
+    <!-- My stylesheet Vendor -->
+    <!-- <link rel="stylesheet" type="text/css" href="vendor/css/bootstrap.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="vendor/css/animate.css"> -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../vendor/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="../vendor/css/material-icons.css">
+    <link rel="stylesheet" type="text/css" href="../vendor/css/materialize.css">
+
+    <!-- My css -->
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+</head>
+
+<body>
+    <!-- Header start -->
+    <nav>
+        <div class="nav-wrapper white">
+            <a href="#" class="brand-logo pink-text darken-3 ruta-logo">Ruta</a>
+            <a href="#" data-activates="mobile-menu" class="button-collapse black-text"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="pages/signup.html">Become Driver</a></li>
+                <li><a class="modal-trigger" data-target="usr-signIn" href="#usr-signIn">Sign in</a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-menu">
+                <li><a href="pages/signup.html">Become Driver</a></li>
+                <li><a class="modal-trigger" data-target="usr-signIn" href="#usr-signIn">Sign in</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Header End -->
+
+    <!-- Sign Up section for drivers  start-->
+
+    <div class="row signup-driver">
+        <div class="col s12">
+            <ul class="tabs">
+                <li class="tab col m4 tb-a"><a href="#test1">Step 1</a></li>
+                <li class="tab col m4 tb-b disabled"><a href="#test2">Step 2</a></li>
+                <li class="tab col m4 tb-c disabled"><a href="#test3">Step 3</a></li>
+            </ul>
+        </div>
+
+        <!-- car svg logo -->
+        <div class="row">
+            <div class="col s12 center-align">
+                <div class="col s12">
+                    <div class=" suv">
+                        <img src="../images/icons/suv.svg" class="responsive-img" alt="driver logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--  Tab output-->
+        <div id="test1" class="col s12">
+            <div class="row center-aligner">
+                <div class="col m3"></div>
+                <form class="col m6">
+                    <div class="col s12 center-align" style="padding: 20px 0px;">
+                        <h5>
+                            Sign up as Driver
+                        </h5>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+                            <label for="first_name">First Name</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">Last Name</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="password" type="password" class="validate">
+                            <label for="password">Password</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s12">
+                            Extra field sha:
+                            <div class="input-field inline">
+                                <input id="email" type="email" class="validate">
+                                <label for="email" data-error="wrong" data-success="right">Email</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s4"></div>
+                        <button id="stp-one" class="btn pink darken-4 waves-effect waves-light col s4">
+                                <i class="material-icons two-em">keyboard_arrow_right</i>
+                        </button>
+                        <div class="col s4"></div>
+                    </div>
+                </form>
+                <div class="col m3"></div>
+            </div>
+        </div>
+        <div id="test2" class="col s12">
+            <div class="row center-aligner">
+                <div class="col s3"></div>
+                <form class="col m6">
+                    <div class="col s12 center-align" style="padding: 20px 0px;">
+                        <h5>
+                            Almost Done...
+                        </h5>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input placeholder="Placeholder" id="second_name" type="text" class="validate">
+                            <label for="second_name">First Name</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="thelast_name" type="text" class="validate">
+                            <label for="thelast_name">Last Name</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="newpassword" type="password" class="validate">
+                            <label for="newpassword">Password</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="anemail" type="email" class="validate">
+                            <label for="anemail">Email</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s12">
+                            Extra field sha:
+                            <div class="input-field inline">
+                                <input id="oemail" type="email" class="validate">
+                                <label for="oemail" data-error="wrong" data-success="right">Email</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s4"></div>
+                        <a id="step-two" class="btn pink darken-4 waves-effect waves-light col s4">
+                            <i class="material-icons two-em">keyboard_arrow_right</i>
+                        </a>
+                        <div class="col s4"></div>
+                    </div>
+                </form>
+                <div class="col m3"></div>
+            </div>
+        </div>
+        <div id="test3" class="col s12">
+            <div class="row center-aligner">
+                <div class="col m3"></div>
+                <form class="col m6">
+                    <div class="col s12 center-align" style="padding: 20px 0px;">
+                        <h5>
+                            One Last thing
+                        </h5>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input placeholder="Placeholder" id="first_names" type="text" class="validate">
+                            <label for="first_names">First Name</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <input id="last_names" type="text" class="validate">
+                            <label for="last_names">Last Name</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <input id="input_texts" type="text" data-length="10">
+                            <label for="input_texts">Input text</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="passwords" type="password" class="validate">
+                            <label for="passwords">Password</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <input id="emails" type="email" class="validate">
+                            <label for="emails">Email</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s12">
+                            Extra field sha:
+                            <div class="input-field inline">
+                                <input id="emails" type="email" class="validate">
+                                <label for="emails" data-error="wrong" data-success="right">Email</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col s4"></div>
+                        <button class="btn pink darken-4 waves-effect waves-light col s4">
+                                        Finish
+                                </button>
+                        <div class="col s4"></div>
+                    </div>
+                </form>
+                <div class="col m3"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Sign Up section for drivers  end -->
+
+
+    <!--  -->
+
+
+
+    <footer class="page-footer pink darken-4">
+        <div class="container">
+            <div class="row">
+                <!-- <div class="col m6 s12">
+                        <h5 class="white-text">Footer Content</h5>
+                        <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                    </div> -->
+                <div class="col m3 s12">
+                    <h5 class="white-text">Our Company</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Blog</a></li>
+                        <li><a class="grey-text text-lighten-3" href="aboutUs.html">About Us</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Contact Us</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">How it Works</a></li>
+                    </ul>
+                </div>
+                <div class="col m3 s12">
+                    <h5 class="white-text">Driver</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Vehicle Requirements</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Cities</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Safetly Rules</a></li>
+                    </ul>
+                </div>
+                <div class="col m3 s12">
+                    <h5 class="white-text">Extras</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">FAQ</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Support</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Developers</a></li>
+                    </ul>
+                </div>
+                <div class="col m3 s12 footer-app center-align">
+                    <h5 class="grey-text lighten-2">Coming Soon !</h5>
+                    <div class="col m12 s12">
+                        <a href="#!">
+                            <img class="responsive-img" src="../images/playstore.png" alt="playstore">
+                        </a>
+                    </div>
+                    <div class="col m12 s12">
+                        <a href="#!">
+                            <img class="responsive-img" src="../images/appstore.png" alt="appstore">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col m12 s12 center-align social-links">
+                <a href="#">
+                    <i class="fa fa-facebook fa-2x white-text "></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-twitter fa-2x white-text"></i>
+                </a>
+                <a href="#">
+                    <i class="fa fa-instagram fa-2x white-text"></i>
+                </a>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2017 Ruta
+                <a class="grey-text text-lighten-4 right" href="#!">Terms and Conditions for Drivers and Riders </a>
+            </div>
+        </div>
+    </footer>
+
+    <!--My Javascript Vendors -->
+    <script type="text/javascript" src="../vendor/js/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="../vendor/js/materialize.js"></script>
+    <!-- <script type="text/javascript" src="vendor/js/bootstrap.js"></script> -->
+
+    <!-- My Javascript -->
+    <script type="text/javascript" src="../js/app.js"></script>
+</body>
